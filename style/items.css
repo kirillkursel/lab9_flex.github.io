@@ -1,0 +1,178 @@
+.button {
+    background: #F3F3F3;
+}
+
+footer {
+    display: flex;
+    text-align: right;
+    font-size: 17px;
+    justify-content: space-between;
+}
+.logo {
+    margin: 50px;
+    margin-bottom: 0;
+}
+.box {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 0px;
+}
+
+.exit {
+    height: 75px;
+    width: 75px;
+    background: #fff;
+    border-radius: 20px;
+    margin-left: 30px;
+}
+
+.exit a {
+
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.exit img {
+    transform: scale(0.7);
+}
+
+.exit:hover {
+    transform: scale(1.1);
+}
+
+.varenie {
+    justify-self: center;
+    /* width: 60vw; */
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+}
+
+.varenie > p {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 35px;   
+}
+
+.tovar {
+    background: #9A1212;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    width: 50vw;
+    height: 40vh;
+    font-size: 30px;
+    border-radius: 40px;
+}
+.tovar img {
+    height: 100%;
+    border-radius: 40px;
+    right: 0;
+}
+.tovar p {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.content-company {
+    width: 65vw;
+    align-self: center;
+    font-size: 24px;
+    text-align: right;
+
+}
+.top {
+    position: relative;
+    display: flex;
+    /* align-items: center; */
+}
+
+.slider {
+    justify-self: center;
+    display: flex;
+    align-items: center;
+    align-self: center;
+}
+.slider > * {
+    margin: 2vw;
+}
+@media screen and (max-height: 800px) {
+    .tovar {
+        justify-self: center;
+        width: 70vw;
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 1000px){
+    header {
+        justify-self: center;
+    }
+    .box > img {display: none;}
+    .button {justify-self: center;}
+    .logo { display: none;}
+    .content-company {
+        font-size: 18px;
+    }
+    .comp-img {
+        height: 110px;
+    }
+    footer p{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 1200px){
+    .slider img:nth-child(5) {
+        display: none;
+    }
+}
+@media screen and (max-width: 950px){
+    .slider img:nth-child(4) {
+        display: none;
+    }
+}
+@media screen and (max-width: 750px){
+    .slider img:nth-child(3) {
+        display: none;
+    }
+}
+@media screen and (max-width: 650px) {
+    .tovar {
+        width: 95vw;
+        justify-self: flex-start;
+    }
+    .tovar img {
+        height: auto;
+        width: auto;
+    }
+}
+@media screen and (max-width: 600px) {
+    .varenie > p {
+        font-size: 24px;
+    }
+    .content-company {
+        font-size: 13px;
+    }
+    footer p{
+        font-size: 13px;
+    }
+    .comp-img {
+        height: 80px;
+    }
+}
+@media screen and (max-width: 550px){
+    .slider img:nth-child(2) {
+        display: none;
+    }
+    .bot {
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+@media screen and (max-width: 450px) {
+    .tovar {
+        font-size: 15px;
+    }
+}
