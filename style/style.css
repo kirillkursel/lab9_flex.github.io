@@ -29,6 +29,7 @@
     position: absolute;
     top: 30%;
     left: 40px;
+    z-index: 2;
 }
 
 header {
@@ -76,6 +77,13 @@ main {
     text-align: right;
     color: white;
     max-width: 50%;
+}
+
+.vetka-item {
+    position: absolute;
+    right: 0;
+    z-index: 2;
+    bottom: 70px;
 }
 
 .text-1 {
